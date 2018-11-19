@@ -1,6 +1,8 @@
 package sessions
 
-import "encoding/json"
+import (
+	json "github.com/agilab/gostone/agijson"
+)
 
 type (
 	// Marshaler is the common marshaler interface, used by transcoder.

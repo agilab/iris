@@ -2,7 +2,7 @@ package context
 
 import (
 	"bytes"
-	"encoding/json"
+	json "github.com/agilab/gostone/agijson"
 	"encoding/xml"
 	"fmt"
 	"io"

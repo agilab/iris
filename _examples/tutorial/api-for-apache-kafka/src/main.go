@@ -1,10 +1,11 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"time"
+
+	json "github.com/agilab/gostone/agijson"
 
 	"github.com/Shopify/sarama"
 	"github.com/kataras/iris"

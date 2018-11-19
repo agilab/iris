@@ -1,11 +1,12 @@
 package recaptcha
 
 import (
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/url"
 	"time"
+
+	json "github.com/agilab/gostone/agijson"
 
 	"github.com/kataras/iris/context"
 	"github.com/kataras/iris/core/netutil"

@@ -1,11 +1,12 @@
 package typescript
 
 import (
-	"encoding/json"
 	"io/ioutil"
 	"os"
 	"reflect"
 	"strconv"
+
+	json "github.com/agilab/gostone/agijson"
 
 	"github.com/kataras/iris/typescript/npm"
 )

@@ -3,8 +3,9 @@ package websocket
 import (
 	"bytes"
 	"encoding/binary"
-	"encoding/json"
 	"strconv"
+
+	json "github.com/agilab/gostone/agijson"
 
 	"github.com/kataras/iris/core/errors"
 	"github.com/valyala/bytebufferpool"
